@@ -3,115 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>USPS Style Guide</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="header"></section>
-​
-    <section class="colorPalette">
-        <h1 id="pageTopic">USPS Style Guide</h1>
-        <h2 class="sectionHead">Primary Colors</h2>
-​
-        <div class="colorContainer">
-            <div class="swatch darkBlue"></div>
-            <div class="hexCode">#333366</div>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <div class="logo">STAPLES</div>
+            <h1>Rewards Membership Dashboard</h1>
+            <p class="subtitle">That was easy - see your savings!</p>
+        </header>
+
+        <div class="membership-card">
+            <h2>Membership Investment</h2>
+            <div class="price-tag">$99.00</div>
+            <p class="detail">Annual Rewards Membership</p>
+            <div class="progress-container">
+                <div class="progress-label">You've saved 227% of your membership cost!</div>
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar" style="width: 100%"></div>
+                    <div class="progress-bar-overlay" style="width: 100%"></div>
+                </div>
+            </div>
         </div>
-        <div class="colorContainer">
-            <div class="swatch darkGrey"></div>
-            <div class="hexCode">#545454</div>
+
+        <div class="chart-section">
+            <h2>Savings Breakdown</h2>
+            <div class="chart-container">
+                <div class="bar-chart">
+                    <div class="chart-bar">
+                        <div class="bar-label">Membership Cost</div>
+                        <div class="bar-wrapper">
+                            <div class="bar membership-bar" style="width: 44%;">
+                                <span class="bar-value">$99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Total Saved</div>
+                        <div class="bar-wrapper">
+                            <div class="bar savings-bar" style="width: 100%;">
+                                <span class="bar-value">$225</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-bar">
+                        <div class="bar-label">Net Value</div>
+                        <div class="bar-wrapper">
+                            <div class="bar profit-bar" style="width: 56%;">
+                                <span class="bar-value">+$126</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="colorContainer">
-            <div class="swatch lightGrey"></div>
-            <div class="hexCode">#E3E3E3</div>
+
+        <div class="purchases-section">
+            <h2>Your Recent Orders</h2>
+            <div class="order-item">
+                <div class="order-header">
+                    <div class="order-info">
+                        <span class="order-number">Order #STL-8429156</span>
+                        <span class="order-date">Jan 15, 2026</span>
+                    </div>
+                    <div class="order-savings">Saved $60.00</div>
+                </div>
+                <div class="order-items">
+                    <div class="item-row">
+                        <span class="item-desc">HP LaserJet Pro Printer - Model M404dn</span>
+                        <span class="item-amount">$189.00</span>
+                    </div>
+                </div>
+                <div class="savings-bar-container">
+                    <div class="savings-bar-fill" style="width: 27%"></div>
+                </div>
+            </div>
+
+            <div class="order-item">
+                <div class="order-header">
+                    <div class="order-info">
+                        <span class="order-number">Order #STL-8427893</span>
+                        <span class="order-date">Jan 10, 2026</span>
+                    </div>
+                    <div class="order-savings">Saved $55.00</div>
+                </div>
+                <div class="order-items">
+                    <div class="item-row">
+                        <span class="item-desc">Ergonomic Office Chair - Mesh Back</span>
+                        <span class="item-amount">$145.00</span>
+                    </div>
+                </div>
+                <div class="savings-bar-container">
+                    <div class="savings-bar-fill" style="width: 24%"></div>
+                </div>
+            </div>
+
+            <div class="order-item">
+                <div class="order-header">
+                    <div class="order-info">
+                        <span class="order-number">Order #STL-8425671</span>
+                        <span class="order-date">Jan 5, 2026</span>
+                    </div>
+                    <div class="order-savings">Saved $35.00</div>
+                </div>
+                <div class="order-items">
+                    <div class="item-row">
+                        <span class="item-desc">Copy Paper 8.5x11 - 10 Ream Case</span>
+                        <span class="item-amount">$65.00</span>
+                    </div>
+                </div>
+                <div class="savings-bar-container">
+                    <div class="savings-bar-fill" style="width: 16%"></div>
+                </div>
+            </div>
+
+            <div class="order-item">
+                <div class="order-header">
+                    <div class="order-info">
+                        <span class="order-number">Order #STL-8423489</span>
+                        <span class="order-date">Dec 28, 2025</span>
+                    </div>
+                    <div class="order-savings">Saved $40.00</div>
+                </div>
+                <div class="order-items">
+                    <div class="item-row">
+                        <span class="item-desc">Laptop Stand - Adjustable Aluminum</span>
+                        <span class="item-amount">$49.00</span>
+                    </div>
+                    <div class="item-row">
+                        <span class="item-desc">Wireless Mouse - Ergonomic Design</span>
+                        <span class="item-amount">$40.00</span>
+                    </div>
+                </div>
+                <div class="savings-bar-container">
+                    <div class="savings-bar-fill" style="width: 18%"></div>
+                </div>
+            </div>
+
+            <div class="order-item">
+                <div class="order-header">
+                    <div class="order-info">
+                        <span class="order-number">Order #STL-8421245</span>
+                        <span class="order-date">Dec 20, 2025</span>
+                    </div>
+                    <div class="order-savings">Saved $35.00</div>
+                </div>
+                <div class="order-items">
+                    <div class="item-row">
+                        <span class="item-desc">HP 64XL Ink Cartridge Multi-Pack (4-Pack)</span>
+                        <span class="item-amount">$79.00</span>
+                    </div>
+                </div>
+                <div class="savings-bar-container">
+                    <div class="savings-bar-fill" style="width: 16%"></div>
+                </div>
+            </div>
         </div>
-        <div class="colorContainer">
-            <div class="swatch white"></div>
-            <div class="hexCode">#FFFFFF</div>
+
+        <div class="summary-cards">
+            <div class="summary-card total-spent">
+                <h3>Total Spent</h3>
+                <div class="amount">$567.00</div>
+            </div>
+            <div class="summary-card total-saved">
+                <h3>Total Saved</h3>
+                <div class="amount savings">$225.00</div>
+            </div>
+            <div class="summary-card net-value">
+                <h3>Net Value</h3>
+                <div class="amount profit">+$126.00</div>
+                <p class="explanation">Your savings minus membership fee</p>
+            </div>
         </div>
-        <div class="colorContainer">
-            <div class="swatch lightBlue"></div>
-            <div class="hexCode">#13A0F6</div>
+
+        <div class="value-message">
+            <h2>That was easy! You've saved more than your membership cost!</h2>
+            <p>Your membership has paid for itself and you're ahead by <strong>$126.00</strong></p>
         </div>
-        
-        <h2 class="sectionHead">Text Colors</h2>
-        <div class="colorContainer">
-            <div class="swatch darkBlue"></div>
-            <div class="hexCode">#333366</div>
-        </div>
-        <div class="colorContainer">
-            <div class="swatch darkGrey"></div>
-            <div class="hexCode">#545454</div>
-        </div>
-​
-        <h2 class="sectionHead">Alert Colors</h2>
-        <div class="colorContainer">
-            <div class="swatch red"></div>
-            <div class="hexCode">#F84848</div>
-        </div>
-        <div class="colorContainer">
-            <div class="swatch orange"></div>
-            <div class="hexCode">#FC7705</div>
-        </div>
-        <div class="colorContainer">
-            <div class="swatch lightBlue"></div>
-            <div class="hexCode">#13A0F6</div>
-        </div>
-        <div class="colorContainer">
-            <div class="swatch lightGreen"></div>
-            <div class="hexCode">#8ABE48</div>
-        </div>
-    </section>
-​
-    <section class="typography">
-        <h2 class="sectionHead">Typography</h2>
-        <p>Open Sans</p>
-        <div class="type_container">
-            <p class="large light">Aa</p>
-            <p>Light</p>
-        </div>
-        <div class="type_container">
-            <p class="large regular">Aa</p>
-            <p>Regular</p>
-        </div>
-​
-        <div class="type_container">
-            <p class="large bold">Aa</p>
-            <p>Bold</p>
-        </div>
-​
-        <h1>“H1 - Open Sans Extrabold - size 50px <br> Line height 70px”</h1>
-        <h2>“H2 - Open Sans Bold - size 42px <br> Line height 60px”</h2>
-        <h3>“H3 - Open Sans Bold - size 34px <br> Line height 50px”</h3>
-        <h4>“H4 - Open Sans Bold - size 26px <br> Line height 28px”</h4>        
-    </section>
-​
-    <section class="uiElements">
-        <h2 class="sectionHead">UI Elements</h2>
-        <p>Button</p>
-        <div class="buttonContain">
-            <div class="button primary">Primary</div>
-            <div class="button success">Success</div>
-            <div class="button danger">Danger</div>
-            <div class="button warning">Warning</div>
-            <div class="button info">Info</div>
-        </div>
-        <div class="buttonContain">
-            <div class="button primaryActive">Primary Active</div>
-            <div class="button successActive">Success Active</div>
-            <div class="button dangerActive">Danger Active</div>
-            <div class="button warningActive">Warning Active</div>
-            <div class="button infoActive">Info Active</div>
-        </div>
-​
-    </section>
-​
-    <section class="imagery">
-        <h2 class="sectionHead">Logo</h2>
-        <img src="./images/Logo-dark.png">
-        <img src="./images/Logo-light.png">
-        <img src="./images/Logo-dark1.png">
-        <img src="./images/Logo-light-1.png">
-    </section>
+    </div>
 </body>
 </html>
